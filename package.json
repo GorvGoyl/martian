@@ -1,7 +1,7 @@
 {
-  "name": "@tryfabric/martian",
-  "version": "1.1.0",
-  "description": "Converts Markdown to Notion Blocks and RichText",
+  "name": "@rakmo33/martian_fork",
+  "version": "2.3.0",
+  "description": "Converts Markdown to Notion Blocks and RichText | Fixed newline issue",
   "repository": "https://github.com/instantish/martian",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",

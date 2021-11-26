@@ -218,7 +218,7 @@ describe('gfm parser', () => {
       )
     );
 
-    const actual = parseRichText(ast);
+    const actual = parseRichText(ast, '');
 
     const expected = [
       notion.richText('a'),

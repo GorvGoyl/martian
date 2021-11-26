@@ -38,5 +38,5 @@ export function markdownToBlocks(
  */
 export function markdownToRichText(text: string): notion.RichText[] {
   const root = unified().use(markdown).use(gfm).parse(text);
-  return parseRichText(root as unknown as md.Root);
+  return parseRichText(root as unknown as md.Root, text);
 }
