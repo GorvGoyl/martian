@@ -1,7 +1,7 @@
 {
-  "name": "@rakmo33/martian_fork",
-  "version": "2.3.0",
-  "description": "Converts Markdown to Notion Blocks and RichText | Fixed newline issue",
+  "name": "@instantish/martian",
+  "version": "1.2.0",
+  "description": "Converts Markdown to Notion Blocks and RichText",
   "repository": "https://github.com/instantish/martian",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
@@ -27,7 +27,7 @@
   "author": "Richard Robinson",
   "license": "ISC",
   "dependencies": {
-    "@notionhq/client": "^0.4.5",
+    "@notionhq/client": "^0.4.9",
     "remark-gfm": "^1.0.0",
     "remark-parse": "^9.0.0",
     "unified": "^9.2.1"
